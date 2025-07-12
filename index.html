@@ -10,6 +10,7 @@
         --secondary-color: #10b981;
         --dark-color: #1e293b;
         --light-color: #f8fafc;
+        --gold-color: #f5deb3
       }
 
       body {
@@ -116,6 +117,10 @@
         margin-left: 10px;
       }
 
+      .hack{
+        background-color: var(--gold-color);
+      }
+
       /* Animated bubbles in background */
       .bubbles {
         position: fixed;
@@ -199,6 +204,15 @@
 
     <div class="links">
       <!-- Regular links -->
+
+      <a
+        href="https://ajayhacks.netlify.app/"
+        class="link g-link hack"
+        target="_blank"
+      >
+        <span>Hackathon Projects</span>
+      </a>
+      
       <a href="./ml_projects.html" class="link g-link" target="_blank">
         <span>Machine Learning Projects</span>
       </a>
@@ -268,6 +282,7 @@
       >
         <span>Art Projects</span>
       </a>
+
     </div>
 
     <footer>Academic Projects | Ajay Reddy</footer>
