@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Academic Projects</title>
+    <title>Projects & Professional Work</title>
     <style>
       :root {
         --primary-color: #4f46e5;
@@ -162,6 +162,15 @@
         position: relative;
         z-index: 2;
       }
+
+      .category-title {
+        font-size: 1.2rem; /* slightly bigger than normal text */
+        font-weight: 500; /* medium weight for elegance */
+        color: #2c3e50; /* soft dark color */
+        margin: 10px 0 5px 0; /* less space above and below */
+        border-bottom: 1px solid #bdc3c7; /* subtle line to separate groups */
+        padding-bottom: 3px; /* small space between text and line */
+      }
     </style>
   </head>
   <body>
@@ -195,59 +204,74 @@
 
     <div class="profile">
       <img src="./me.jpg" alt="Profile" class="profile-img" />
-      <h1>Academic Projects</h1>
+      <h1>Projects & Professional Work</h1>
+
       <p class="bio">
-        A showcase of my academic journey through project-based learning. These
-        project collections represent coursework projects completed as part of
-        my academics, demonstrating applied knowledge across various domains.
+        This portfolio is a collection of my <b><i>40+</i></b> personal and
+        professional projects, demonstrating my skills across a wide range of
+        domains. You'll find my work in <b><i>AI</i></b
+        >, <b><i>Machine Learning</i></b
+        >, <b><i>Frontend</i></b
+        >, <b><i>Backend</i></b
+        >, <b><i>Full-Stack</i></b
+        >, <b><i>APIs</i></b
+        >, <b><i>Databases</i></b
+        >, <b><i>Cloud</i></b
+        >, and <b><i>DevOps</i></b
+        >. The page also highlights my hackathon projects, including projects
+        developed at <b><i>University of Toronto</i></b
+        >, <b><i>Google Solutions Challenge</i></b
+        >, and <b><i>SPUR Hacks</i></b
+        >.
       </p>
     </div>
 
     <div class="links">
-      <!-- Regular links -->
+      <!-- Machine Learning & AI -->
+      <h2 class="category-title">AI / ML</h2>
+      <a href="./ml_projects.html" class="link g-link" target="_blank">
+        <span>Machine Learning Projects</span>
+      </a>
+      <a href="./llm_projects.html" class="link g-link" target="_blank">
+        <span>Projects on LLMs</span>
+      </a>
+      <a href="./gemini_projects.html" class="link g-link" target="_blank">
+        <span>GEMINI Projects</span>
+      </a>
+      <a href="./py_projects.html" class="link g-link" target="_blank">
+        <span>Python Projects</span>
+      </a>
 
+      <br /><br />
+
+      <!-- Hackathons -->
+      <h2 class="category-title">Hackathons</h2>
       <a
-        href="https://ajayhacks.netlify.app/"
+        href="./hackathon_projects.html"
         class="link g-link hack"
         target="_blank"
       >
         <span>Hackathon Projects</span>
       </a>
 
-      <a href="./ml_projects.html" class="link g-link" target="_blank">
-        <span>Machine Learning Projects</span>
-      </a>
+      <br /><br />
 
-      <a href="./llm_projects.html" class="link g-link" target="_blank">
-        <span>Projects on LLMs</span>
-      </a>
-
-      <a href="./gemini_projects.html" class="link g-link" target="_blank">
-        <span>GEMINI Projects</span>
-      </a>
-
-      <a href="./py_projects.html" class="link g-link" target="_blank">
-        <span>Python Projects</span>
-      </a>
-
-      <br />
-      <br />
-
+      <!-- Frontend Development -->
+      <h2 class="category-title">Frontend</h2>
       <a href="./reactjs_projects.html" class="link g-link" target="_blank">
-        <span>ReactJS Projects</span>
+        <span>React.js Projects</span>
       </a>
-
       <a href="./redux_projects.html" class="link g-link" target="_blank">
         <span>Redux Projects</span>
       </a>
-
       <a href="./typescript_projects.html" class="link g-link" target="_blank">
         <span>TypeScript Projects</span>
       </a>
 
-      <br />
-      <br />
+      <br /><br />
 
+      <!-- Backend & APIs -->
+      <h2 class="category-title">Backend & APIs</h2>
       <a
         href="./nodejs_and_expressjs_projects.html"
         class="link g-link"
@@ -255,36 +279,15 @@
       >
         <span>Node.js / Express.js Projects</span>
       </a>
-
-      <a href="./js_projects.html" class="link g-link" target="_blank">
-        <span>JavaScript Projects</span>
-      </a>
-
-      <a href="./flask_projects.html" class="link g-link" target="_blank">
-        <span>FLASK Projects</span>
-      </a>
-
-      <br />
-      <br />
-
-      <a href="./aws_projects.html" class="link g-link" target="_blank">
-        <span>AWS Projects</span>
-      </a>
-
-      <a
-        href="https://hub.docker.com/layers/c0865533/nasa_mission_control/latest/images/sha256-f43454b47dd57f79d982471b68bf1e1b99965cbc37fa1d23dfbea60bd9a2c6e3"
-        class="link g-link"
-        target="_blank"
-      >
-        <span>Docker Project</span>
-      </a>
-
       <a
         href="https://github.com/ajayreddyfsd/GraphQLight"
         class="link g-link"
         target="_blank"
       >
         <span>GraphQL Project</span>
+      </a>
+      <a href="./flask_projects.html" class="link g-link" target="_blank">
+        <span>Flask Projects</span>
       </a>
 
       <a
@@ -294,7 +297,6 @@
       >
         <span>WebSockets Project</span>
       </a>
-
       <a
         href="https://github.com/ajayreddyfsd/OAuthify"
         class="link g-link"
@@ -303,6 +305,14 @@
         <span>OAuth / Passport.js Project</span>
       </a>
 
+      <a href="./js_projects.html" class="link g-link" target="_blank">
+        <span>JavaScript Projects</span>
+      </a>
+
+      <br /><br />
+
+      <!-- Cloud & DevOps -->
+      <h2 class="category-title">Cloud & DevOps</h2>
       <a
         href="https://github.com/ajayreddyfsd/NASA-Mission-Control"
         class="link g-link"
@@ -310,7 +320,21 @@
       >
         <span>Full-Stack CI / CD Project</span>
       </a>
+      <a href="./aws_projects.html" class="link g-link" target="_blank">
+        <span>AWS Projects</span>
+      </a>
+      <a
+        href="https://hub.docker.com/layers/c0865533/nasa_mission_control/latest/images/sha256-f43454b47dd57f79d982471b68bf1e1b99965cbc37fa1d23dfbea60bd9a2c6e3"
+        class="link g-link"
+        target="_blank"
+      >
+        <span>Docker Project</span>
+      </a>
 
+      <br /><br />
+
+      <!-- Databases -->
+      <h2 class="category-title">Databases</h2>
       <a
         href="https://github.com/ajayreddyfsd/Whodunnit-The-Keiko-Corp-Data-Breach-Case"
         class="link g-link"
@@ -318,7 +342,6 @@
       >
         <span>SQL Project</span>
       </a>
-
       <a
         href="https://cloud.mongodb.com/v2/68b0e46007f3346018dcc7c2#/clusters/detail/NasaMissionControl"
         class="link g-link"
@@ -327,6 +350,10 @@
         <span>MongoDB Project</span>
       </a>
 
+      <br /><br />
+
+      <!-- Miscellaneous / Tools -->
+      <h2 class="category-title">Misc.</h2>
       <a
         href="https://github.com/ajayreddyfsd/Excel-Retirement-Planner"
         class="link g-link"
@@ -334,7 +361,6 @@
       >
         <span>Microsoft Excel Project</span>
       </a>
-
       <a
         href="https://drive.google.com/file/d/1IjTlslc3W8LXmaZNkxyVRKw50zvLgzUr/view?usp=sharing"
         class="link g-link"
@@ -344,6 +370,6 @@
       </a>
     </div>
 
-    <footer>Academic Projects | Ajay Reddy</footer>
+    <footer>Projects & Professional Work | Ajay Reddy</footer>
   </body>
 </html>
